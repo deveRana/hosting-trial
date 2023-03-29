@@ -9,7 +9,7 @@ app.use(express.json());
 
 //get route on root
 app.get('/',(req,res)=>{
-    res.status(200).json({msg:'this is the get route and its working'});    
+    res.status(200).json({msg:'i have changed the message to check if the server is being updated or not'});    
 })
 
 //post route
